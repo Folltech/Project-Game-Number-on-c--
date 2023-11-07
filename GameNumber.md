@@ -13,7 +13,7 @@ int main()
 	cin >> a;
 	while (!stop)
 	{
-		if (a != randNum && (randNum - a ) < (randNum - blis))
+		if (a != randNum)
 		{
 			if (randNum - a > 0)
 			{
@@ -31,11 +31,6 @@ int main()
 		{
 			cout << "Поздраляем! Вы победили!" << endl;
 			stop = true;
-		}
-		else
-		{
-			cout << "Больше" << endl;
-			cin >> a;
 		}
 		shag++;
 	}
